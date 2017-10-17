@@ -1,0 +1,19 @@
+<launch>    
+    <node name="eye" pkg="pishu_eye" type="pishu_eye.py"  output="screen" >
+    </node>
+
+    <node name="mouth" pkg="pishu_mouth" type="pishu_mouth.py"  output="screen" >
+    </node>
+
+    <node name="spine" pkg="pishu_spine" type="spine.py"  output="screen" >
+    </node>
+
+    <node name="face" pkg="pishu_face" type="face.py"  output="screen" >
+    </node>
+
+    <node name="ear" pkg="pishu_ear" type="ear_simple.py"  output="screen" >
+    </node>
+
+    <node name="cortex" pkg="pishu_cortex" type="cortex.py" output="screen">
+    </node>
+</launch>
